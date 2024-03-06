@@ -1,0 +1,16 @@
+#bola{
+    width:20px;
+    height:20px;
+    background-color:#000;
+    border-radius:10px;
+   }
+   #jog1, #jog2{
+    width:20px;
+    height:140px;
+    background-color:#000;
+   }
+   #campo{
+    width:960px;
+    height:500px;
+    border:1px solid #000;
+   }

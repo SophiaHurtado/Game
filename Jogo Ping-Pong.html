@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>Seu Primeiro Jogo - HTML5</title>
+ <link rel="stylesheet" type="text/css" href="C:/pong/css/style.css">
+ 
+ </head>
+
+<body onload="preparaJogo()">
+<div id="painel">
+<label>Dificuldade</label>
+<input type="text" id="pnDif" value="1">
+<label>Pontos</label>
+<input type="text" id="pnPts" value="0">
+<input type="button" value="Iniciar" id="pnIniciar" onclick="iniciaJogo()">
+</div>
+<div id="campo" style="position:absolute;top:40px;left:20px">
+<div id="bola" style="position:absolute;top:240px;left:470px"></div>
+<div id="jog1" style="position:absolute;top:180px;left:20px"></div>
+<div id="jog2" style="position:absolute;top:180px;left:920px"></div>
+</div>
+<script src="C:/pong/script/pong.js"></script>
+</body>
+</html>
